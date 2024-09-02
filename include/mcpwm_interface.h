@@ -60,8 +60,8 @@ struct motor_t {
  * @brief Motor Configuration
  */
 typedef struct {
-    uint32_t pwma_gpio_num; /*!< Motor PWM A gpio number */
-    uint32_t pwmb_gpio_num; /*!< Motor PWM B gpio number */
+    uint32_t pwm0; /*!< Motor PWM A gpio number */
+   // uint32_t pwm0; /*!< Motor PWM B gpio number */
     uint32_t pwm_freq_hz;   /*!< PWM frequency, in Hz */
 } motor_config_t;
 

@@ -1,9 +1,9 @@
 #ifndef _ADC_ZEPHYR_H
 #define _ADC_ZEPHYR_H
 
-#include <zephyr.h>
-#include <drivers/adc.h>
-#include <logging/log.h>
+#include <zephyr/zephyr.h>
+#include <zephyr/drivers/adc.h>
+#include <zephyr/logging/log.h>
 
 LOG_MODULE_REGISTER(adc_zephyr);
 
