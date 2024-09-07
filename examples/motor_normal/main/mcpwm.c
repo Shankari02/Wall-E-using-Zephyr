@@ -1,7 +1,10 @@
-#include <zephyr/zephyr.h>
+//#include <zephyr.h>
+
+//#include <zephyr/zephyr.h>
+#include <zephyr/kernel.h>
 #include <zephyr/device.h>
-#include <include/mcpwm_interface.h>
 #include <zephyr/logging/log.h>
+#include <include/mcpwm_interface.h>
 
 #define 	PWM_POLARITY_NORMAL   (0 << 0)
 #define 	PWM_POLARITY_INVERTED   (1 << 0)

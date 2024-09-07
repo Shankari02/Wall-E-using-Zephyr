@@ -1,12 +1,11 @@
-
 / {
 	aliases {
-		ch0-pin = &pwm_pin;
+		pwm-led0 = &pwm_led0;
 	};
 
-	pwmpins {
+	pwmleds {
 		compatible = "pwm-leds";
-		pwm_pin: DIO_17 {
+		pwm_led0: pwm_led_0 {
 			pwms = <&pwm0 0 255 PWM_POLARITY_NORMAL>;
 			label = "PWM MB1";
 		};
